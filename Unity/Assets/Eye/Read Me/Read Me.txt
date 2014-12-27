@@ -1,0 +1,28 @@
+Eyes Prefab
+
+This asset come with six custom eye maps textures in PSD format. Each PSD has 10 customizable layers to edit and create any type of unique eye color or iris shape.
+
+
+These eye prefabs are set up with a custom shader. 
+
+Main Color – Main Color
+
+Spec Color – Specular Color
+
+Shine – Amount of specular light
+
+Iris Illum – Amount of illumination of the texture based on the Alpha channel mask
+
+Reflect Power – Amount of reflection map
+
+RGB Tex (A)Illum – This is the base texture, the alpha channel of this texture controls the illumination area.
+
+Normal – Normal map to simulate cornea bulge
+
+Reflect Cube – Reflection map
+
+
+
+
+Nikolaus Kraus
+
