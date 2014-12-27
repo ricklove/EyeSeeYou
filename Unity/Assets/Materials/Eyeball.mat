@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Eyeball
-  m_Shader: {fileID: 4800000, guid: 4ea20af4aff922f43a949008521a41f8, type: 3}
+  m_Shader: {fileID: 10701, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,7 +17,21 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 222a36587c9ad1c48898e542ad7c4dbb, type: 3}
+          m_Texture: {fileID: 2800000, guid: 9b66a7396f84c364fb46317f5d7f47c1, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: c9f077e70bc1388419c7073a3db72a24, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -36,7 +50,42 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Cube
+          name: _FrontTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BackTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LeftTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RightTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _UpTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DownTex
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -48,16 +97,16 @@ Material:
         second: 1
       data:
         first:
-          name: _Shine
-        second: 1.5
-      data:
-        first:
           name: _IllumPower
         second: -.800000012
       data:
         first:
+          name: _Shine
+        second: 1.5
+      data:
+        first:
           name: _ReflectionPower
-        second: .285714298
+        second: .178571448
     m_Colors:
       data:
         first:
@@ -69,9 +118,9 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _SpecularColor
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
           name: _ReflectColor
         second: {r: 1, g: 1, b: 1, a: .5}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: 1, g: 1, b: 1, a: 1}

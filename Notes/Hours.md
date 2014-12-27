@@ -66,12 +66,17 @@ Freak your friends out by setting this in the corner of the room and watch how l
 - Obtain eyeball 3D model
 - Add to scene
 
+### 5:38-6:04
 
+- Add cursor tracking
+- Rotate eye towards mouse
+
+### 6:05-6:39
+
+- Test with device
 
 ## TODO
 
-
-- Move Eyeball to look at mouse
 
 - Setup camera motion detection
 - Get pixels from frame

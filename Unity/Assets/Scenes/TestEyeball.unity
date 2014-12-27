@@ -243,8 +243,8 @@ Transform:
   m_PrefabInternal: {fileID: 1134070063}
   m_GameObject: {fileID: 383154184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: .370000005}
-  m_LocalScale: {x: 7, y: 7, z: 7}
+  m_LocalPosition: {x: -0, y: 0, z: .340000004}
+  m_LocalScale: {x: 7.5, y: 7.5, z: 7.5}
   m_Children:
   - {fileID: 771739849}
   m_Father: {fileID: 1476574801}
@@ -291,7 +291,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a14973b6192de7643bb5e4efd29c2d86, type: 2}
+  - {fileID: 2100000, guid: 7cd114fa85129b94dae268f22ef5fcef, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -350,6 +350,34 @@ Prefab:
       propertyPath: m_Name
       value: Eye
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: a0d4026312296d848877eb392ffa7d1d, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a0d4026312296d848877eb392ffa7d1d, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a0d4026312296d848877eb392ffa7d1d, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a0d4026312296d848877eb392ffa7d1d, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a0d4026312296d848877eb392ffa7d1d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .340000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a0d4026312296d848877eb392ffa7d1d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: a0d4026312296d848877eb392ffa7d1d, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7cd114fa85129b94dae268f22ef5fcef, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0d4026312296d848877eb392ffa7d1d, type: 2}
   m_RootGameObject: {fileID: 1476574800}
@@ -468,3 +496,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cb3a5e5bd518b4dbad69ca748db59b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  depth: .150000006
