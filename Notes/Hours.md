@@ -75,13 +75,33 @@ Freak your friends out by setting this in the corner of the room and watch how l
 
 - Test with device
 
+## Hour 2
+
+### 4:00-4:28
+
+- Create webcam test scene
+- Show webcam image on screen
+
+### 4:29-5:00
+
+- Sample the images and do a diff
+- Show the samples
+- Show the diff
+
+### 5:01-5:24
+
+- Find the clusters
+
+## Hour 3
+
+### 5:31-
+
+- Find diff with a cutoff
+
+
 ## TODO
 
-
-- Setup camera motion detection
-- Get pixels from frame
-- Compare pixels from last frame (and timelapse frame)
-- Identify changed regions
+- Identify clusters
 
 - Display changed regions on screen
 

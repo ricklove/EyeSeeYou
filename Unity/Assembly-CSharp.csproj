@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\EyeController.cs" />
+     <Compile Include="Assets\LookAtMotionController.cs" />
+     <Compile Include="Assets\WebcamMotionDetector.cs" />
      <None Include="Assets\Eye\Read Me\Read Me.txt" />
      <None Include="Assets\Eye\Shader\EyeShader.shader" />
  <Reference Include="UnityEngine.UI">

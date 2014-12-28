@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Eyeball
-  m_Shader: {fileID: 10701, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 4ea20af4aff922f43a949008521a41f8, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,9 +17,9 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 9b66a7396f84c364fb46317f5d7f47c1, type: 3}
+          m_Texture: {fileID: 2800000, guid: da7d21d2c4f84cd4397cba5efe007e92, type: 3}
           m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
+          m_Offset: {x: .129999995, y: 0}
       data:
         first:
           name: _BumpMap
@@ -45,7 +45,7 @@ Material:
         first:
           name: _Reflect
         second:
-          m_Texture: {fileID: 8900000, guid: a54f37926d239cc4180430aa0cf98bc5, type: 3}
+          m_Texture: {fileID: 8900000, guid: 1658438006c42aa4bb45db8cf7edddc2, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -111,7 +111,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .913725495, g: .674509823, b: .686274529, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _SpecColor
@@ -124,3 +124,7 @@ Material:
         first:
           name: _SpecularColor
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EmisColor
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 0}
